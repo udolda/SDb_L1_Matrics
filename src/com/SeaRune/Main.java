@@ -21,6 +21,10 @@ public class Main {
         m1Xm2.print();
 
         System.out.println();
+        m1Xm2.transposition();
+        m1Xm2.print();
+
+        System.out.println();
         m1.add(m2);
         m1.print();
 

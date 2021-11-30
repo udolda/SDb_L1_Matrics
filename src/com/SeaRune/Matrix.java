@@ -67,4 +67,17 @@ public class Matrix {
         }
     }
 
+    /**
+     * Транспонирование матрицы
+     */
+    public void transposition() {
+        for (int i = 0; i < elems.length; i++) {
+            for (int j = i+1; j < elems[i].length; j++) {
+                double temp = elems[i][j];
+                elems[i][j] = elems[j][i];
+                elems[j][i] = temp;
+            }
+        }
+    }
+
 }
